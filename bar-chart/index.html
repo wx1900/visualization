@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bar chart practice</title>
+        <script src = "https://d3js.org/d3.v3.js"></script>
+    </head>
+
+    <body>
+        <p>2016年中国各省份的年度GDP <a href="http://data.stats.gov.cn">数据来源</a></p>
+       <script>
+           d3.csv("test.csv", function(csvdata){
+               console.log(csvdata);
+               var canvas = d3.select("body").append("svg")
+                            .attr("width", 1000)
+                            .attr("height", 1600)
+                            .attr("class", "canvas");
+                canvas.selectAll("rect")
+                        .data(csvdata)
+                        .enter()
+                            .append("rect")
+                            .attr("width", function(d) {
+                                return d.GDP/100;
+                            })
+                            .attr("height", 40)
+                            .attr("y", function(d, i) {return i * 50;})
+                            .attr("fill", "steelblue");
+                canvas.selectAll("text")
+                        .data(csvdata)
+                        .enter()
+                        .append("text")
+                        .attr("fill", "white")
+                        .attr("y", function(d, i) {return i * 50 + 20;})
+                        .text(function(d){ return d.Area; })
+                        .attr()
+           })
+       </script>
+    </body>
+</html>
