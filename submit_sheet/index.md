@@ -62,7 +62,35 @@
 
 2. What anomalies do you find in the waterway samples dataset?How do these affect your analysis of potential problems to the environment? Is the Hydrology Department collecting sufficient data to understand the comprehensive situation across the Preserve? What changes would you propose to make in the sampling approach to best understand the situation?Your submission for this question should contain no more than 6 images and 500 words.
 
+   We found that in the dataset, some data is abnormally higher than normal data. This shows the change in copper content in the past. We found that around 2005, the copper content suddenly increased, far exceeding the usual level. We think this is an anomaly, which may be abnormality in data logging or an error in data detection. 
+
+   ![](pic/anomaly/data4.png)
+
+   This is the chart of AGOC-3A content in the past years, it has an abnormally high abnormal data, which we think is also one of the errors. More over, the data in most areas is basically zero, and basically not changed. We believe that such data doesn't have much reference value.
+
+   ![](pic/anomaly/data5.png)
+
+   These anomalies affect our analysis, and we may treat anomalous data as an increase or decrease in the content of certain chemical elements. 
+
+   ![](pic/anomaly/data3.png)
+
+   ![](pic/anomaly/data2.png)
+
+   ![](pic/anomaly/data6.png)
+
+   ![](pic/anomaly/data1.png)
+
    ​
+
+   ​
+
+   ​
+
+   ​
+
+   ​
+
+   ![](pic/anomaly/data7.png)
 
 3. After reviewing the data, do any of your findings cause particular concern for the Pipit or other wildlife? Would you suggest any changes in the sampling strategy to better understand the waterways situation in the Preserve? Your submission for this question should contain no more than 6 images and 500 words.
 
